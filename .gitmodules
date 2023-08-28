@@ -1,3 +1,6 @@
 [submodule "themes/hugo-split-theme"]
 	path = themes/hugo-split-theme
-	url = https://github.com/mythbus/MyHugoTheme.git
+	url = https://github.com/mythbus/A12v3_theme.git
+[submodule "themes/your-custom-theme"]
+	path = themes/your-custom-theme
+	url = https://github.com/mythbus/A12v3_theme.git
