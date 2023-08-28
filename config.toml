@@ -1,32 +1,37 @@
 # Site settings
-baseURL = "https://example.org/"
+baseURL = "https://allalen.com"
 languageCode = "en-US"
-title = "Split - HTML Template Demo"
+title = "Alla Len"
 theme = "hugo-split-theme"
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "G-5TG9QDRC0P"
+
+# Copyright
+copyright = "&copy;2023 Alla Len"
 
 [params]
 
   # Metadata for search engines and social sharing
-  name = "Jenny Jones"
-  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  name = "Alla Len"
+  description = "Step into Alla Len's realm of pop-soul melodies, where each note played on the piano and each lyric sung is a whisper from the soul. Inspired by the evocative works of Adele, Evanescence, and Alicia Keys, her songs echo from the depths of heartache to the heights of love's promises. In I Cannot Forget You experience the haunting ache of love unrequited. Feel destiny's pull in Stay with Me Forever and embark on romantic escapades in Love sur la Garonne. Alla Len's music, deeply introspective yet universally resonant, takes you on an emotional journey with the transformative power of love as your guide. Immerse yourself."
   shareImage = "images/social.jpg"
-  twitterHandle = "onepagelove"
+  twitterHandle = "#"
 
   # Favicon
   favicon = "favicon.ico"
 
-  # Copyright
-  copyright = "&copy;2017 Your Name"
-
   # Section - Content
   [params.content]
-    name = "Jenny Jones"
-    tagline = "Designer. Stylist. Nomad."
-    bio = "Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra [luctus urna](#) ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, [ipsum in](#) malesuada congue, [purus sem](#) ullamcorper massa, sit amet lacinia nibh enim sed massa."
+    name = "Alla Len"
+    tagline = "Songwriter. Singer. Pianist."
+    bio = "A tapestry of sound, woven with the threads of love and longing. My songs are bridges to distant souls, rivers of emotions that unite and divide. Each note, a quiet plea; each lyric, a poetic testament. Here, the heart finds its voice in the ethereal. Immerse yourself."
 
   # Section - Visual
   [params.visual]
@@ -52,15 +57,15 @@ googleAnalytics = ""
       heading = "Connect"
 
       [[params.links.list1.link]]
-        text = "Blog"
-        url = "#"
-
-      [[params.links.list1.link]]
         text = "Email"
         url = "#"
 
       [[params.links.list1.link]]
-        text = "Newsletter"
+        text = "Facebook"
+        url = "#"
+
+      [[params.links.list1.link]]
+        #text = "Newsletter"
         url = "#"
 
   # Links List #2
@@ -69,32 +74,32 @@ googleAnalytics = ""
       heading = "Social"
 
       [[params.links.list2.link]]
-        text = "Twitter"
+        text = "YouTube"
+        url = "#"
+
+      [[params.links.list2.link]]
+        text = "TikTok"
         url = "#"
 
       [[params.links.list2.link]]
         text = "Instagram"
         url = "#"
 
-      [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
-
   # Links List #3
   [[params.links]]
     [params.links.list3]
-      heading = "Network"
+      heading = "Support me"
 
       [[params.links.list3.link]]
-        text = "Link One"
+        text = "Patreon"
         url = "#"
 
       [[params.links.list3.link]]
-        text = "Link Two"
+        text = "Buy Me a Coffee"
         url = "#"
 
       [[params.links.list3.link]]
-        text = "Link Three"
+        text = "Boosty"
         url = "#"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
