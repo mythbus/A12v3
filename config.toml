@@ -58,6 +58,10 @@ copyright = "&copy;2024 Alla Len"
       heading = "Listen"
 
       [[params.links.list1.link]]
+        text = "YouTube"
+        url = "https://www.youtube.com/@anthemlady"
+
+      [[params.links.list1.link]]
         text = "Spotify"
         url = "https://open.spotify.com/artist/2t9z9vVBuTKoNrAxPoWS9Q"
 
@@ -65,20 +69,12 @@ copyright = "&copy;2024 Alla Len"
         text = "Apple Music"
         url = "https://music.apple.com/us/artist/alla-len/1763016598"
 
-      [[params.links.list1.link]]
-        text = "YouTube Music"
-        url = "https://music.youtube.com/watch?v=Y8Yl3f9JT5Y"
-
 
 
   # Links List #2
   [[params.links]]
     [params.links.list2]
       heading = "Social"
-
-      [[params.links.list2.link]]
-        text = "YouTube"
-        url = "https://www.youtube.com/@anthemlady"
 
       [[params.links.list2.link]]
         text = "TikTok"
@@ -91,6 +87,7 @@ copyright = "&copy;2024 Alla Len"
       [[params.links.list2.link]]
         text = "E-mail"
         url = "mailto:pr@allalen.com"
+
 
   # Links List #3
   [[params.links]]
