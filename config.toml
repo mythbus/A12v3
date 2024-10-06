@@ -38,13 +38,13 @@ copyright = "&copy;2024 Alla Len"
 
     # Image
     [params.visual.image]
-      enable = false
+      enable = true
       file = "images/background.jpg"
       position = "center center"
 
     # Video
     [params.visual.video]
-      enable = true
+      enable = false
       mute = false
       # file = "videos/background.mp4"
       youtubeId = "dk9uNWPP7EA"
@@ -55,23 +55,21 @@ copyright = "&copy;2024 Alla Len"
   # Links List #1
   [[params.links]]
     [params.links.list1]
-      heading = "Connect"
+      heading = "Listen"
 
       [[params.links.list1.link]]
-        text = "Email"
-        url = "#"
+        text = "Spotify"
+        url = "https://open.spotify.com/artist/2t9z9vVBuTKoNrAxPoWS9Q"
 
       [[params.links.list1.link]]
-        text = "Facebook"
-        url = "#"
+        text = "Apple Music"
+        url = "https://music.apple.com/us/artist/alla-len/1763016598"
 
       [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
+        text = "YouTube Music"
+        url = "https://music.youtube.com/watch?v=Y8Yl3f9JT5Y"
 
-      [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
+
 
   # Links List #2
   [[params.links]]
@@ -80,15 +78,19 @@ copyright = "&copy;2024 Alla Len"
 
       [[params.links.list2.link]]
         text = "YouTube"
-        url = "#"
+        url = "https://www.youtube.com/@anthemlady"
 
       [[params.links.list2.link]]
         text = "TikTok"
-        url = "#"
+        url = "https://www.tiktok.com/@anthemlady"
 
       [[params.links.list2.link]]
         text = "Instagram"
-        url = "#"
+        url = "https://www.instagram.com/allalen/"
+
+      [[params.links.list2.link]]
+        text = "E-mail"
+        url = "mailto:pr@allalen.com"
 
   # Links List #3
   [[params.links]]
@@ -96,16 +98,16 @@ copyright = "&copy;2024 Alla Len"
       heading = "Support me"
 
       [[params.links.list3.link]]
-        text = "Patreon"
-        url = "#"
-
-      [[params.links.list3.link]]
         text = "Buy Me a Coffee"
-        url = "#"
+        url = "https://buymeacoffee.com/allalen"
 
       [[params.links.list3.link]]
-        text = "Boosty"
-        url = "#"
+        text = "Patreon"
+        url = "https://www.patreon.com/allalen"
+
+      [[params.links.list3.link]]
+        text = "PayPal"
+        url = "https://www.paypal.com/paypalme/allalenmusic"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
