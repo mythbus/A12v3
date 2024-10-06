@@ -65,7 +65,11 @@ copyright = "&copy;2024 Alla Len"
         url = "#"
 
       [[params.links.list1.link]]
-        #text = "Newsletter"
+        text = "Newsletter"
+        url = "#"
+
+      [[params.links.list1.link]]
+        text = "Newsletter"
         url = "#"
 
   # Links List #2
