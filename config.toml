@@ -14,7 +14,7 @@ uglyURLs = true
 googleAnalytics = "G-5TG9QDRC0P"
 
 # Copyright
-copyright = "&copy;2023 Alla Len"
+copyright = "&copy;2024 Alla Len"
 
 [params]
 
@@ -44,10 +44,10 @@ copyright = "&copy;2023 Alla Len"
 
     # Video
     [params.visual.video]
-      enable = false
-      mute = true
-      file = "videos/background.mp4"
-      # youtubeId = "dk9uNWPP7EA"
+      enable = true
+      mute = false
+      # file = "videos/background.mp4"
+      youtubeId = "RW5TOWyEtyY"
 
   # Links
   #
