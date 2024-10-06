@@ -44,7 +44,7 @@ copyright = "&copy;2024 Alla Len"
 
     # Video
     [params.visual.video]
-      enable = false
+      enable = true
       mute = false
       # file = "videos/background.mp4"
       youtubeId = "RW5TOWyEtyY"
