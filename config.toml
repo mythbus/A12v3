@@ -44,9 +44,10 @@ copyright = "&copy;2024 Alla Len"
 
     # Video
     [params.visual.video]
-      enable = true             # Must be set to true to display the video
-      youtubeId = "RW5TOWyEtyY" # The YouTube video ID for embedding
-      mute = false              # Set to false if you want sound
+      enable = true
+      mute = false
+      # file = "videos/background.mp4"
+      youtubeId = "dk9uNWPP7EA"
 
 
   # Links
